@@ -1,0 +1,10 @@
+h1{
+	color :blue;
+	text-decoration:underline;
+	text-transform: uppercase;
+}
+#header{
+	text-align:center;
+	background-color:rgb(240,165,88);
+	font-size = 50px;
+}
