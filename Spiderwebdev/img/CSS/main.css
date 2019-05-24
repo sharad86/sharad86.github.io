@@ -1,10 +1,56 @@
 h1{
 	color :blue;
-	text-decoration:underline;
+	text-decoration:blink;
 	text-transform: uppercase;
 }
 #header{
 	text-align:center;
-	background-color:rgb(240,165,88);
+	background-color:lavender;
 	font-size = 50px;
+}
+p{
+	font-size:20px;
+	color:red;
+	margin-bottom: 24px;
+}
+#bio{
+	width:100%;
+	background-color:cyan;
+}
+a{
+	color:blue;
+	text-decoration:underline;
+}
+#navigation{
+	margin: 30px auto;
+	padding: 30px;
+	border: 1.5px solid #000;
+	background-color: lavender;
+	border-radius: 10px 20px;
+}
+#contact{
+	color:chocolate;
+	margin: 30px 50px 80px;
+	margin-bottom: 0px;
+	margin-right: 900px;
+	padding:10px;
+	border: 1.5px solid #000;
+	background-color: lavender;
+	border-radius: 10px 20px;
+}
+p, h1, h2, h3, li{
+	font-family: helvetica, Arial, sans-serif;
+}
+#navigation h2{
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+a:hover{
+	color:maroon;
+}
+#bio:hover{
+	background-color:lavender;
+}
+a:visited{
+	color:purple;
 }
